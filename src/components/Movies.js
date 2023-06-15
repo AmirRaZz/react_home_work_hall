@@ -9,7 +9,6 @@ class Movies extends Component {
         this.state = {
             movies: [],
             temp: [],
-            genre: [],
             search: "",
             isError: false,
         };
