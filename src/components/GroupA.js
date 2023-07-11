@@ -26,4 +26,4 @@ const GroupA = ({ chairs, chairState }) => {
     );
 };
 
-export default React.memo(GroupA);
+export default (GroupA);
