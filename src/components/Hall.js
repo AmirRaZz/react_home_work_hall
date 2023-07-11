@@ -41,16 +41,17 @@ const Hall = () => {
     const chairState = (event) => {
         const price = event.target.title;
         const value = event.target.value;
+        const button = event.target
         if (value === "unselected") {
-            event.target.value = "selected";
-            event.target.style.backgroundColor = "green";
-            event.target.style.color = "white";
+            button.value = "selected";
+            button.style.backgroundColor = "green";
+            button.style.color = "white";
         } else if (value === "selected") {
-            event.target.value = "reserve";
-            event.target.style.backgroundColor = "orange";
+            button.value = "reserve";
+            button.style.backgroundColor = "orange";
         } else if (value === "reserve") {
-            event.target.value = "chosen";
-            event.target.style.backgroundColor = "red";
+            button.value = "chosen";
+            button.style.backgroundColor = "red";
             setCount((prevCount) => prevCount + 1);
             setPrice((prevPrice) => parseInt(prevPrice) + parseInt(price));
         } else if (value === "chosen") {
