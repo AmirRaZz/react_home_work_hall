@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            width: 40%;
+            background-color: aqua;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            font-weight: normal;
+            text-align: center;
+            color: darkblue;
+            font-size: 1.75rem;
+        }
+    }
+
+    .status{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 65px;
+        margin-bottom: 15px;
+        span{
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #bef2ff;
+            font-size: 1.5rem;
+            padding: 5px;
+            min-width: 110px;
+            text-align: center;
+        }
+    }
+    .container-fluid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+        button{
+            height:50px ;
+            width: 50px;
+            background-color: #e9ecff;
+            border-radius: 5px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .stage-b{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: fit-content;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        .stage-a{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 485px;
+            height: fit-content;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        .stage-c{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: fit-content;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        .stage-d{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 720px;
+            height: fit-content;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+        }
+    }
+}
+
+
